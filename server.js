@@ -8,3 +8,9 @@ var mongoose = require("mongoose");
 // It works on the client and on the server
 var axios = require("axios");
 var cheerio = require("cheerio");
+
+// Require all models
+var db = require("./models");
+
+var PORT = 3000;
+
